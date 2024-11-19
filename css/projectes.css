@@ -98,9 +98,6 @@ nav ul li a, #Calc {
     font-size: 22px;
 }
 
-nav ul li a:hover{
-    color: #ffffff;
-}
 
 .TituloPR1 {
    font-size: larger;
@@ -121,7 +118,7 @@ nav ul li a:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(0, 0, 0);
     margin-right: 10px;
     width: 48%;
     height: 100%;
@@ -129,6 +126,12 @@ nav ul li a:hover{
 }
 .imagen1 {
     width: 40%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.imagen2 {
+    width: 40%;
+    height: 40%;
     border-radius: 15px;
     margin-bottom: 15px;
 }
@@ -148,7 +151,7 @@ nav ul li a:hover{
     display: flex;
     align-items: center;
     flex-direction: column; 
-    background-color: rgb(255, 17, 0);
+    background-color: rgb(0, 0, 0);
     margin-left: 10px;
     width: 48%;
     height: 100%;
@@ -159,6 +162,25 @@ nav ul li a:hover{
     font-size: large;
     width: 100%;
     margin-bottom: 15;
-    background-color: #ffffff;
+    color: #ffffff;
     
+}
+.texto2{
+    font-size: large;
+    margin-bottom: 15;
+    color: #ffffff;
+}
+footer {
+    margin-top: 5px;
+    background-color: #000000;
+    color: #33ff00c0;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center; 
+    font-family: Roboto, sans-serif;
+    height: 12%;
+    border-radius: 15px;
+}
+#texto_footer1{
+    margin-bottom: 20;
 }
