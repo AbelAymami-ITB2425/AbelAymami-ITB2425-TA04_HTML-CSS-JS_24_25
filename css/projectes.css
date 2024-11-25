@@ -135,9 +135,22 @@ nav ul li a, #Calc {
     border-radius: 15px;
     margin-bottom: 15px;
 }
+.imagen3 {
+    width: 70%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.imagen4 {
+    width: 70%;
+    height: 20%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+
 
 .ThunderBoosting{
-    background-color: #f8f8f8;
+    color: #33ff00c0;
     margin-top: 5px;
     margin-bottom: 15px;
     font-size: xx-large;
