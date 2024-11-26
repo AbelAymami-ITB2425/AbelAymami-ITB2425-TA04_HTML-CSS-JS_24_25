@@ -5,7 +5,10 @@ article {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: aquamarine;
+    background-color:#A3B4BF;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
 }
 
 header {
@@ -13,25 +16,34 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #8AABBF;
     padding: 20px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
 }
 footer {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color:  #8AABBF;
     padding: 20px;
+    border-width: 2px;
+    border-color: #8AABBF;
+    border-style: solid;
 }
 nav {
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color:rgb(221, 233, 236);
     padding: 20px;
     flex-wrap: nowrap;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
 }
 article img {
     width: auto;
@@ -39,5 +51,8 @@ article img {
     align-items: center;
 }
 .img1{
-    background-color: blue;
+    text-align: center;
+}
+body{
+    background-color:#404040;
 }
